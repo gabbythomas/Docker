@@ -1,6 +1,10 @@
+# If docker isn't setup to be run as non-root user,
+# this script must be run with sudo.
+
 docker pull jenkins/jenkins
 
 docker kill container jenkins
+
 docker run -d --rm -v jenkins_home:/var/jenkins_home \
            -v /var/run/docker.sock:/var/run/docker.sock \
            -v $(which docker):$(which docker) \
