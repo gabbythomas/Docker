@@ -1,9 +1,0 @@
-# Not a good way to manage creds/secrets
-# but will do to simplify for a test project.
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_SESSION_TOKEN=
-
-EC2_SECURITY_GROUP_ID=sg-
-EC2_SUBNET_ID=subnet-
