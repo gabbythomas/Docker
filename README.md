@@ -11,3 +11,7 @@
 1. To retrieve initial password for unlocking Jenkins
     1. `sudo docker exec -it bash`
     1. `cat /var/jenkins_home/secrets/initialAdminPassword`
+1. Install selected/suggested plugins
+1. Create first admin user
+1. Accept default install configuration
+1. Get to Jenkins welcome screen - now you're ready to setup custom jobs, plugins, settings, etc
