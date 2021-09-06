@@ -1,7 +1,7 @@
 # jenkins
 
 ## Prerequisites
-1. Docker
+* Docker
 
 ## Install Jenkins Server
 1. Clone this repository
